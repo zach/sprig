@@ -2,6 +2,8 @@ module github.com/zach/sprig/v3
 
 go 1.13
 
+replace github.com/imdario/mergo => dario.cat/mergo@v0.3.11
+
 require (
 	github.com/Masterminds/goutils v1.1.1
 	github.com/Masterminds/semver/v3 v3.2.0
